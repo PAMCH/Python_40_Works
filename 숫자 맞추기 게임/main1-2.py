@@ -7,7 +7,7 @@ random_number = random.randint(1,100)
 game_count = 1
 
 while True :
-    my_number = int(input("1~100 사이 숫자를 입력하세요!"))
+    my_number = int(input("1~100 사이 숫자를 입력하세요! : "))
 
     if my_number > random_number :
         print("다운")
