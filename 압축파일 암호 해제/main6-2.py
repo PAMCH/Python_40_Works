@@ -3,7 +3,7 @@ import zipfile
 
 passwd_string = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
-zFile = zipfile.ZipFile(r'압축파일 암호 해제\암호1234.zip')
+zFile = zipfile.ZipFile(r'암호1234.zip')
 
 for len in range(1,4):
     to_attepmt = itertools.product(passwd_string, repeat = len)
