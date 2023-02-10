@@ -13,4 +13,4 @@ for lines in readLines : # 한줄 식 읽어와서 한글로 번역하고 출력
     res = translator.translate(lines, dest='ko')
     print(res.text)
     with open(write_file_path, 'a', encoding='UTF8') as f : # a는 추가 쓰기 옵션이며 한글 사용을 위해 UTF8으로 인코딩
-        f.write(res.text + '\n')
+        f.write(res.text + '\n') # 파일에 입력
