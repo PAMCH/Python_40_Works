@@ -31,5 +31,5 @@ for mail in reversed(last_email) : #최신 메일부터 볼수있게 뒤집어�
     print('SUBJECT:',subject)
     print('='*70)
 
-imap.close
-imap.logout
+imap.close()
+imap.logout()
